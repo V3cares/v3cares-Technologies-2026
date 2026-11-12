@@ -1,0 +1,13 @@
+Copy your existing website image files into this folder using these filenames:
+- exhibit.jpg
+- blessing.jpg
+- ceofounder.jpg
+- mercy.jpeg
+- haddasah.jpg
+
+Optional work-preview screenshots:
+- young-and-gifted.jpg
+- v3cares-project.jpg
+- portfolio-project.jpg
+
+The components have designed fallback artwork if an image is missing. Update the project names and links in src/components/WorkPreview.jsx to match your real portfolio projects.

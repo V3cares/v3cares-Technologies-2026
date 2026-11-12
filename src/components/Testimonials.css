@@ -1,0 +1,20 @@
+.testimonials-section{background:#f1f0ec}
+.testimonials-heading{display:flex;align-items:end;justify-content:space-between;gap:40px}
+.testimonials-heading h2{max-width:740px}
+.testimonials-note{max-width:290px;margin:0 0 5px;color:#696969;font-size:13px;line-height:1.8}
+.testimonials-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.testimonial-card{display:flex;flex-direction:column;min-height:320px;padding:27px 26px 24px;border:1px solid rgba(17,17,17,.12);background:#fff}
+.testimonial-card-featured{background:#171717;color:#fff;border-color:#171717}
+.testimonial-card-top{display:flex;align-items:center;justify-content:space-between;color:var(--red)}
+.testimonial-card-top span{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#888}
+.testimonial-card blockquote{margin:34px 0 32px;font:500 clamp(20px,2.1vw,27px)/1.4 var(--display);letter-spacing:-.025em}
+.testimonial-card-featured blockquote{color:#fff}
+.testimonial-author{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:18px;border-top:1px solid var(--line)}
+.testimonial-card-featured .testimonial-author{border-color:#3a3a3a}
+.testimonial-avatar{display:grid;place-items:center;width:38px;height:38px;border:1px solid #ddd;border-radius:50%;font-size:10px;font-weight:700;color:var(--red)}
+.testimonial-author cite,.testimonial-author>div>span{display:block;font-style:normal}
+.testimonial-author cite{font-size:12px;font-weight:700}
+.testimonial-author>div>span{margin-top:4px;font-size:10px;color:#888}
+.testimonial-card-featured .testimonial-author>div>span{color:#aaa}
+@media(max-width:1000px){.testimonials-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.testimonial-card:last-child{grid-column:1/-1;min-height:260px}}
+@media(max-width:700px){.testimonials-heading{display:block}.testimonials-note{margin-top:18px}.testimonials-grid{grid-template-columns:1fr;gap:14px}.testimonial-card,.testimonial-card:last-child{grid-column:auto;min-height:280px;padding:24px 21px}.testimonial-card blockquote{font-size:23px;margin:28px 0}}
