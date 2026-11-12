@@ -3,19 +3,19 @@ import "./Testimonials.css";
 
 const testimonials = [
   {
-    quote: "Share a client-approved quote about how the team helped bring an idea to life.",
-    name: "Client name",
-    project: "Project or company"
+    quote: "Working with V3Cares Technologies has been an inspiring experience. Their commitment to innovation, creativity, and delivering technology-driven solutions reflects a genuine passion for excellence. We appreciate their dedication to turning ideas into practical digital solutions and look forward to seeing more of their impact in the tech industry.",
+    name: "Windriod Technologies",
+    project: "Technology Company"
   },
   {
-    quote: "Add a few words from a client about the collaboration, process, or final result.",
-    name: "Client name",
-    project: "Project or company"
+    quote: "V3Cares Technologies stands out for its creativity, professionalism, and dedication to quality. Their approach to web development and digital innovation demonstrates a strong understanding of how technology can transform ideas into meaningful experiences. They are passionate about what they do, and that passion reflects in their work.",
+    name: "Dees Creative Cloud",
+    project: "Creative & Digital Solutions"
   },
   {
-    quote: "Replace this sample with genuine feedback that reflects your client's experience.",
-    name: "Client name",
-    project: "Project or company"
+    quote: "We believe every successful business deserves a strong digital presence, and V3Cares Technologies understands this perfectly. Their commitment to helping businesses grow through technology, innovation, and creative digital solutions is commendable. We appreciate their vision and dedication to helping businesses bring their ideas to life.",
+    name: "Celebrity Cleaning Company",
+    project: "Cleaning & Facility Services"
   }
 ];
 
@@ -29,7 +29,7 @@ export default function Testimonials() {
             <h2>Good work is even better when it’s <em>shared.</em></h2>
           </div>
           <p className="testimonials-note">
-            Sample copy for now. Replace these with approved client quotes before publishing.
+      
           </p>
         </div>
         <div className="testimonials-grid">
@@ -37,9 +37,9 @@ export default function Testimonials() {
             <article className={`testimonial-card${index === 0 ? " testimonial-card-featured" : ""}`} key={index}>
               <div className="testimonial-card-top">
                 <Quote size={24} aria-hidden="true" />
-                <span>Sample quote</span>
+                <span></span>
               </div>
-              <blockquote>{testimonial.quote}</blockquote>
+              <p>{testimonial.quote}</p>
               <div className="testimonial-author">
                 <span className="testimonial-avatar" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
                 <div>

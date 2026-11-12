@@ -7,7 +7,7 @@
 .testimonial-card-featured{background:#171717;color:#fff;border-color:#171717}
 .testimonial-card-top{display:flex;align-items:center;justify-content:space-between;color:var(--red)}
 .testimonial-card-top span{font-size:9px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#888}
-.testimonial-card blockquote{margin:34px 0 32px;font:500 clamp(20px,2.1vw,27px)/1.4 var(--display);letter-spacing:-.025em}
+.testimonial-card blockquote{margin:24px 0 32px;font:500 clamp(20px,2.1vw,27px)/1.4 var(--display);letter-spacing:-.025em}
 .testimonial-card-featured blockquote{color:#fff}
 .testimonial-author{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:18px;border-top:1px solid var(--line)}
 .testimonial-card-featured .testimonial-author{border-color:#3a3a3a}
